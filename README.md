@@ -7,5 +7,5 @@ Projeto de uma urna para votos em vereador e prefeito. Como em uma urna comum é
 
 * SlideShow
 
-* Urna Eletrônica  
+* Formulário 
 
