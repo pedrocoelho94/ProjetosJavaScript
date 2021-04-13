@@ -3,7 +3,7 @@
  ## **Projetos em Javascript feitos acompanhando o vídeo do professor Bonieky Lacerda da B7Web.**
 
 * Urna Eletrônica  
-Em andamento
+Projeto de uma urna para votos em vereador e prefeito. Como em uma urna comum é possível votar em branco, corrigir e confirmar o voto.
 
 * SlideShow
 
