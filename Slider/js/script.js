@@ -35,7 +35,7 @@ function responsive(){
     document.querySelector('.sliderControls').style.height = 
     `${document.querySelector('.slider').clientHeight}px`
 
-    //updateMargin()
+    updateMargin()
 }
 
 //setInterval(goNext, 2000)
