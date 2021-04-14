@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slider</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body onresize="responsive()">
+    <header>
+        <div class="header"></div>
+        <div class="slider" id="slider">
+            <div class="sliderControls">
+                <div class="sliderControl" onclick="goPrev()"><i class="fas fa-angle-left fa-4x"></i></div>
+                <div class="sliderControl" onclick="goNext()"><i class="fas fa-angle-right fa-4x"></i></div>
+            </div>
+            <div class="sliderWidth">
+                <div class="sliderItem" style="background-image: url(images/foto1.jpg)">
+                    <span>Lorem ipsum dolor</span>
+                </div>
+                <div class="sliderItem" style="background-image: url(images/foto2.jpg);">
+                    <span>Sit amet consectetur adipisicing</span>
+                </div>
+                <div class="sliderItem" style="background-image: url(images/foto3.jpg)">
+                    <span>Eius veniam consequatur</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section>
+        <h1>Resto do Site</h1>
+    </section>
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>
