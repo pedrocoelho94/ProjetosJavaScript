@@ -20,7 +20,8 @@ body{
 }
 
 .container{
-    max-width: 640px;
+    width: 640px;
+    max-width: 95%;
     margin: 50px auto;
     background: #fff;
     padding: 20px;
@@ -58,4 +59,28 @@ form button{
 form button:hover{
     background: var(--primary-hover);
 }
+
+/***************************/
+
+.info{
+    display: flex;
+    justify-content: space-around;
+    font-size: 18px;
+}
+
+.info p{
+    margin: 5px 0;
+}
+
+.resultado-valido, .resultado-invalido{
+    background: rgb(109, 255, 182);
+    padding: 10px 20px;
+}
+
+.resultado-invalido{
+    background: rgb(255, 150, 150);
+}
+
+
+
 

@@ -10,9 +10,41 @@
 <body>
 
     <section class="container">
-        <h1>Lorem ipsum dolor sit amet</h1>
+        <h1>Tabela IMC</h1>
 
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores perspiciatis labore veritatis in error, praesentium aliquid repudiandae magnam inventore, molestiae exercitationem asperiores odio eum eius placeat consequatur quasi quaerat quas?</p>
+        <div class="info">
+            <div class="imc">
+                <h2>IMC</h2>
+                <p>Menos do que 18,5</p>
+                <p>Entre 18,5 e 24,9</p>
+                <p>Entre 25 e 29,9</p>
+                <p>Entre 30 e  34,9</p>
+                <p>Entre 35 e 39,9</p>
+                <p>Mais do que 40</p>
+            </div>
+            <div class="resultado">
+                <h2>Resultado</h2>
+                <p>Abaixo do peso</p>
+                <p>Peso Normal</p>
+                <p>Sobrepeso</p>
+                <p>Obesidade Grau 1</p>
+                <p>Obesidade Grau 2</p>
+                <p>Obesidade Grau 3</p>
+            </div>
+        </div>
+
+        <h1>Calcule  seu IMC</h1>
+        <form id="formulario" action="">
+            <label for="peso">Peso:</label>
+            <input id="peso" type="text">
+
+            <label for="altura">Altura:</label>
+            <input id="altura" type="text">
+
+            <button id="calcular" type="submit" >Calcular</button>
+        </form>
+
+        <div id="resultado"></div>
 
     </section>
     
