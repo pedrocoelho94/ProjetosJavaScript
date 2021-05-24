@@ -11,7 +11,7 @@ Slider simples, onde é possível avançar ou retroceder a imagem.
  ## **Outros Projetos**
 
  * Calculadora IMC  
-Calculadora básica para medir IMC
+Calculadora básica para medir IMC.
 
 * Timer  
 Timer com botões de iniciar, pausar e zerar.
