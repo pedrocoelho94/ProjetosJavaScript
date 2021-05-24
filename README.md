@@ -8,5 +8,11 @@ Projeto de uma urna para votos em vereador e prefeito. Como em uma urna comum é
 * SlideShow
 Slider simples, onde é possível avançar ou retroceder a imagem.
 
-* Formulário 
+ ## **Outros Projetos**
+
+ * Calculadora IMC
+Calculadora básica para medir IMC
+
+* Timer
+Timer com botões de iniciar, pausar e zerar.
 
