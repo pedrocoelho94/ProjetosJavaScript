@@ -16,3 +16,6 @@ Calculadora básica para medir IMC.
 * Timer  
 Timer com botões de iniciar, pausar e zerar.
 
+* Lista Tarefas  
+Lista de Tarefas com localStorage.
+
