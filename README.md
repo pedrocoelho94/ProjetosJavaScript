@@ -13,7 +13,10 @@ Slider simples, onde é possível avançar ou retroceder a imagem.
  * Calculadora IMC  
 Calculadora básica para medir IMC.
 
-* Timer  
+ * Calculadora
+Calculadora simples.
+
+* Stopwatch 
 Timer com botões de iniciar, pausar e zerar.
 
 * Lista Tarefas  
