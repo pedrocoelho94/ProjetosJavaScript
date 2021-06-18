@@ -16,7 +16,7 @@ Calculadora básica para medir IMC.
  * Calculadora  
 Calculadora simples.
 
-* Stopwatch 
+* Stopwatch  
 Timer com botões de iniciar, pausar e zerar.
 
 * Lista Tarefas  
