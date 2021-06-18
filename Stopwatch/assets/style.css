@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background: #1A1F39;
+}
+
+.container{
+    margin: 0 auto;
+    margin-top: 50px;
+    max-width: 400px;
+    background-color: #2D314F;
+}
+
+#stopwatch-container{
+    padding: 20px;
+    color: #FFE500;
+    text-align: center;
+}
+
+.stopwatch{ 
+    margin: 10px 0;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.btn button{
+    font-size: 1.2rem;
+    cursor: pointer;
+    width: 80px;
+    height: 40px;
+    color: #FFE500;
+    background-color: transparent;
+    border-radius: 15px;
+    border-color: #FFE500;
+}
+
+.btn button:hover{
+    background-color: #FFE500;
+    color: #000;
+}
+
