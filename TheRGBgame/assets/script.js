@@ -16,6 +16,8 @@ function rgb(){
     newGame()
 
     function newGame(){
+        msg.style.height = ''
+        msg.style.lineHeight = ''
         arrSquare.forEach((el)=> {
             el.style.pointerEvents='auto'
             el.style.visibility='visible'
@@ -62,6 +64,8 @@ function rgb(){
     }
 
     function verificaResposta(){
+        msg.style.height = '40px'
+        msg.style.lineHeight = '40px';
         if(guessColor.innerHTML === el.style.backgroundColor){
             info.style.backgroundColor = guessColor.innerHTML
             arrSquare.forEach((el)=> el.style.pointerEvents='none')

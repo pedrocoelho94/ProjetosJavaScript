@@ -59,11 +59,21 @@ span{
     padding: 5px 10px;
     background: transparent;
     color: #2C8E99;
+    height: 30px;
 }
 
 .btn:hover{
     color: #fff;
     background: #2C8E99;
+}
+
+.btn.active{
+    color: #fff;
+    background: #2C8E99;
+}
+
+.level .btn{
+    margin: 0;
 }
 
 #game{
@@ -73,9 +83,11 @@ span{
 }
 
 .message{
+    font-size: 1.5rem;
     width: 200px;
     color: #2C8E99;
     text-align: center;
+    height: 100%
 }
 
 .squares-container{
@@ -101,11 +113,6 @@ span{
     display: none;
 }
 
-.btn.active{
-    color: #fff;
-    background: #2C8E99;
-}
-
 #author{
     text-align: center;
     color: #fff;
@@ -128,6 +135,7 @@ span{
     .message{
         order: 1;
     }
+
 }
 
 @media (max-width: 440px){
@@ -138,8 +146,6 @@ span{
 }
 
 @media (max-width: 325px){
-
-    
     .square{
         width: 70px;
         height: 70px;
