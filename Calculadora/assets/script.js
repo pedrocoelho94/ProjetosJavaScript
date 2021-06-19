@@ -28,7 +28,6 @@ function calculadora(){
             display.value = display.value.slice(0, -1)
         }
         if(el.classList.contains('btn-eq')){
-            console.log()
             realizaConta()
         }
         
