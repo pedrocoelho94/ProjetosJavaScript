@@ -23,7 +23,7 @@ Timer com botões de iniciar, pausar e zerar.
 Lista de Tarefas com localStorage.
 
 * The RGB Guessing Game    
-Jogo de adivinhação - Um codigo RGB aleatório é gerado e o jogador precisa acertar entre as opções disponíveis qual a cor correspondente. [Clique Aqui para jogar](https://rgbguessinggame.vercel.app/).
+Jogo de adivinhação - Um codigo RGB aleatório é gerado e o jogador precisa acertar entre as opções disponíveis qual a cor correspondente. [Clique Aqui](https://rgbguessinggame.vercel.app/) para jogar.
 
 
 
