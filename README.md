@@ -25,5 +25,7 @@ Lista de Tarefas com localStorage.
 * The RGB Guessing Game    
 Jogo de adivinhação - Um codigo RGB aleatório é gerado e o jogador precisa acertar entre as opções disponíveis qual a cor correspondente. [Clique Aqui](https://rgbguessinggame.vercel.app/) para jogar.
 
+* dev.Finances  
+Mini sistema financeiro com HTML, CSS e JS. Projeto baseado na maratona discover da Rocketseat.
 
 
