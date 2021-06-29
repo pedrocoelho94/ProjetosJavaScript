@@ -25,7 +25,6 @@ function rgb(){
         info.style.backgroundColor = '#2C8E99'
         msg.innerHTML = ''
         startGame()
-
     }
 
     function easyGame(){
