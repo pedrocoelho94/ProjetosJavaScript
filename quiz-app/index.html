@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Quiz App</title>
+      <!-- FONTS AWESOME-->
+      <link
+         rel="stylesheet"
+         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+         integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+         crossorigin="anonymous"
+         referrerpolicy="no-referrer"
+      />
+      <!--FONTS-->
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+         href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700&display=swap"
+         rel="stylesheet"
+      />
+      <!--CSS-->
+      <link rel="stylesheet" href="style.css" />
+   </head>
+   <body>
+      <div class="quiz-container">
+         <header>
+            <div>
+               <div class="gabarito">
+                  <p class="correct"><i class="fas fa-check"></i><span></span> corretas</p>
+                  <p class="wrong"><i class="fas fa-times"></i><span></span> erradas</p>
+               </div>
+               <p></p>
+            </div>
+         </header>
+         <main>
+            <div class="quiz">
+               <div class="question-number">Questão</div>
+               <div class="question">
+                  Qual a seleção que possui mais títulos mundiais no futebol?
+               </div>
+               <div class="answer-info">Opções</div>
+               <div class="answers">
+                  <ul>
+                     <li class="answer a1">Brasil</li>
+                     <li class="answer a2">Alemanha</li>
+                     <li class="answer a3">Itália</li>
+                     <li class="answer a4">França</li>
+                  </ul>
+               </div>
+            </div>
+            <button class="submit">Enviar</button>
+         </main>
+      </div>
+
+
+      <div class="modal-wrapper">
+         <div class="modal">
+            <div class="modal-content">
+               <h2>Fim de Jogo</h2>
+               <p></p>
+               <button class="reset">Jogar Novamente</button>
+            </div>
+         </div>
+      </div>
+
+      <script src="./script.js"></script>
+   </body>
+</html>
