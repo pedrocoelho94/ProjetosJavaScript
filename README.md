@@ -1,14 +1,15 @@
-# ProjetosJavaScript
+ # Bem-vindo! 👋
 
- ## **Projetos em Javascript feitos acompanhando o vídeo do professor Bonieky Lacerda da B7Web.**
+Este é um repositório em que estarei colocando todos os meus mini projetos.
+[Clique Aqui](https://pedrocoelho-projects.vercel.app/) para acessar a página com todos os projetos
+![Preview do site](./assets/site.jpg)
 
-* Urna Eletrônica  
-Projeto de uma urna para votos em vereador e prefeito. Como em uma urna comum é possível votar em branco, corrigir e confirmar o voto.
+ ## FAQ Accordion Card
 
-* SlideShow  
-Slider simples, onde é possível avançar ou retroceder a imagem.
+ ## **Projetos**
 
- ## **Outros Projetos**
+ * Urna Eletrônica  
+Projeto de uma urna para votos em vereador e prefeito. Como em uma urna comum é possível votar em branco, corrigir e confirmar o voto. Projeto feito acompanhando o vídeo do professor Bonieky Lacerda da B7Web.
 
  * Calculadora IMC  
 Calculadora básica para medir IMC.
@@ -23,7 +24,7 @@ Timer com botões de iniciar, pausar e zerar.
 Lista de Tarefas com localStorage.
 
 * The RGB Guessing Game    
-Jogo de adivinhação - Um codigo RGB aleatório é gerado e o jogador precisa acertar entre as opções disponíveis qual a cor correspondente. [Clique Aqui](https://rgbguessinggame.vercel.app/) para jogar.
+Jogo de adivinhação - Um codigo RGB aleatório é gerado e o jogador precisa acertar entre as opções disponíveis qual a cor correspondente. [Clique Aqui](https://pedrocoelho-projects.vercel.app/TheRGBgame/index.html) para jogar.
 
 * dev.Finances  
 Mini sistema financeiro com HTML, CSS e JS. Projeto baseado na maratona discover da Rocketseat.
