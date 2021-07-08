@@ -28,4 +28,5 @@ Jogo de adivinhação - Um codigo RGB aleatório é gerado e o jogador precisa a
 * dev.Finances  
 Mini sistema financeiro com HTML, CSS e JS. Projeto baseado na maratona discover da Rocketseat.
 
-
+* Notes App  
+Um app de notas. É possível deletar e criar notas novas, além de ficarem salvas no localStorage.
