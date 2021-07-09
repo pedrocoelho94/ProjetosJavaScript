@@ -1,7 +1,7 @@
  # Bem-vindo! 👋
 
 Este é um repositório em que estarei colocando todos os meus mini projetos.  
-[Clique Aqui](https://pedrocoelho-projects.vercel.app/) para acessar a página com todos os projetos
+[Clique aqui](https://pedrocoelho-projects.vercel.app/) para acessar a página com todos os projetos
 ![Preview do site](./assets/site.jpg)
 
  ## **Projetos**
