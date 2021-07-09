@@ -1,0 +1,82 @@
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+ul {
+   list-style: none;
+}
+
+body {
+   width: 95%;
+   margin: 3rem auto;
+   background-color: #daf6ff;
+   font-family: 'Poppins', sans-serif;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+h2{
+   font-weight: 200;
+   font-size: 2.5rem;
+   margin-bottom: 2rem;
+   opacity: .8;
+}
+
+.container{
+   width: min(500px, 90%);
+   background-color: white;
+   border-radius: 5px;
+   box-shadow: 0 0 16px rgba(0, 0, 0, .3);
+}
+
+input{
+   width: 100%;
+   font-size: 1.5rem;
+   padding: 0 3rem;
+   height: 50px;
+   border: none;
+   border-bottom: 1px solid rgba(0, 0, 0, .15);
+   outline: none;
+}
+
+.todo-list{
+   padding: 2rem 3rem;
+   line-height: 2rem;
+}
+
+ul li{
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+}
+
+ul li span{
+   cursor: pointer;
+}
+
+.btnDelete{
+   cursor: pointer;
+   width: 20px;
+}
+
+input::placeholder{
+   font-size: 1rem;
+   opacity: .5;
+}
+
+.todo-list li.completed span{
+   opacity: .4;
+   text-decoration: line-through;
+}
+
+.small-text{
+   margin-top: 1rem;
+   font-size: .875rem;
+   opacity: .6;
+}
+
+
