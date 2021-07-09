@@ -132,11 +132,18 @@ header p{
    color: white;
    bottom: -100%;
    transition: 0.2s;
+   
 }
 
-.project:hover h2 {
-   bottom: 0rem;
+/* HOVER APARECE APENAS EM NAVEGADOR */
+
+@media (hover: hover) and (pointer: fine) {
+   .container a:hover h2{
+      bottom: 0rem;
+   }
 }
+
+
 
 @media screen and (min-width: 520px) {
    .container {
