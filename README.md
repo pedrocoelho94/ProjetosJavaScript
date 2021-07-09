@@ -29,5 +29,8 @@ Um app de notas. É possível deletar e criar notas novas, além de ficarem salv
 * Quiz App  
 Um jogo de perguntas e respostas.
 
+* ToDo App  
+App para criar uma lista de tarefas. Nele é possível adicionar e remover tarefas existentes, marcar como completada ao clicar em cima de uma tarefa. Também foi utilizado localStorage para salvar as informações.
+
  * Urna Eletrônica  
 Projeto de uma urna para votos em vereador e prefeito. Como em uma urna comum é possível votar em branco, corrigir e confirmar o voto. Projeto feito acompanhando o vídeo do professor Bonieky Lacerda da B7Web.
