@@ -58,7 +58,6 @@ body{
 }
 
 .btn{
-
     cursor: pointer;
     background: #1d1f24;
     color: #fff;
@@ -68,10 +67,15 @@ body{
     width: 60px;
     height: 60px;
     margin: 5px;
+    
 }
 
 .btn:hover{
-    background: #292c2e;
+    background: #6a6c6d;
+}
+
+.btn:focus{
+    background: #1d1f24;
 }
 
 .verde{
