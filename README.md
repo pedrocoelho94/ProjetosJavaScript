@@ -23,6 +23,9 @@ Jogo de adivinhação - Um codigo RGB aleatório é gerado e o jogador precisa a
 * Countdown Timer  
 Página com uma contagem regressiva para uma determinada data.
 
+* GitHub Profile  
+Página para pesquisar usuários do github utilizando api.
+
 * Notes App  
 Um app de notas. É possível deletar e criar notas novas, além de ficarem salvas no localStorage.
 
