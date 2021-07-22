@@ -1,0 +1,175 @@
+* {
+   margin: 0;
+   padding: 0;
+   font-family: 'Poppins', sans-serif;
+   box-sizing: border-box;
+}
+
+
+img{
+   max-width: 100%;
+}
+
+body {
+   display: flex;
+   gap: 2rem;
+   flex-direction: column;
+   height: 100vh;
+   min-height: 550px;
+   justify-content: center;
+   align-items: center;
+   background: #114357; /* fallback for old browsers */
+   background: -webkit-linear-gradient(
+      to right,
+      #f29492,
+      #114357
+   ); /* Chrome 10-25, Safari 5.1-6 */
+   background: linear-gradient(
+      to right,
+      #f29492,
+      #114357
+   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.container{
+   max-width: 90%;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   gap: 2rem;
+}
+
+.app-title{
+   color: #fff;
+}
+
+.busca{
+   margin: 0 auto;
+   display: flex;
+   justify-content: center;
+}
+
+#searchInput{
+   width: 350px;
+   max-width: 70%;
+   height: 40px;
+   font-size: 1rem;
+   padding: .25rem 1rem;
+   border-radius: 5px 0 0 5px;
+   border: none;
+}
+
+#searchInput:focus{
+   outline: none;
+}
+
+form button{
+   cursor: pointer;
+   height: 40px;
+   padding: .25rem 1rem;
+   border-radius: 0 5px 5px 0;
+   border: none;
+   font-size: 1rem;
+   background-color: #7498a5;
+   color: #fff;
+   transition: filter .3s;
+}
+
+/* HOVER APARECE APENAS EM NAVEGADOR */
+
+@media (hover: hover) and (pointer: fine) {
+   form button:hover{
+      filter: brightness(1.2);
+   }
+}
+
+
+.card{
+   max-width: 90%;
+   width: 420px;
+   text-align: center;
+   color: #fff;
+   background-color: rgba(0, 0, 0, .2);
+   padding: 1rem;
+   border-radius: 5px;
+   display: none;
+}
+
+.card-info{
+   justify-content: space-around;
+}
+
+.info-1{
+   display: flex;
+}
+
+.icon{
+   flex: 4;
+   padding: .5rem;
+   align-self: center;
+}
+
+.temp-info{
+   flex: 6;
+   padding: .5rem;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   align-items: center;
+}
+
+.temp-main{
+   display: flex;
+   
+}
+
+.temp-deg{
+   position: relative;
+   font-size: 4.5rem;
+}
+
+.temp-deg .celsius{
+   font-size: 1.2rem;
+   position: absolute;
+   top: 1rem;
+}
+
+.min-max{
+   width: 100%;
+   display: flex;
+   justify-content: space-around;
+   font-size: .825rem;
+}
+
+.info-2{
+   background-color: rgba(0, 0, 0, .2);
+   border-radius: 5px;
+   padding: .25rem;
+   display: flex;
+   width: 100%;
+   justify-content: space-evenly;
+   margin-top: 1rem;
+}
+
+.info-2 .assets p{
+   font-size: 1rem;
+}
+
+.card.active{
+   display: block;
+}
+
+.aviso{
+   text-align: center;
+   font-size: 1.25rem;
+   color: #fff;
+}
+
+footer{
+   text-align: center;
+   color: #fff;
+}
+
+footer a{
+   color: #fff;
+}
