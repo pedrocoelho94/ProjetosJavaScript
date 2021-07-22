@@ -37,3 +37,6 @@ App para criar uma lista de tarefas. Nele é possível adicionar e remover taref
 
  * Urna Eletrônica  
 Projeto de uma urna para votos em vereador e prefeito. Como em uma urna comum é possível votar em branco, corrigir e confirmar o voto. Projeto feito acompanhando o vídeo do professor Bonieky Lacerda da B7Web.
+
+ * Weather App  
+Projeto de clima de cidades utilizando a api do https://openweathermap.org/.
