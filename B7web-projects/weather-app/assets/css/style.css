@@ -44,6 +44,7 @@ body {
 }
 
 .busca{
+   width: 100%;
    margin: 0 auto;
    display: flex;
    justify-content: center;
@@ -172,4 +173,17 @@ footer{
 
 footer a{
    color: #fff;
+}
+
+@media screen and (max-width: 460px ) {
+   .temp-deg{
+      position: relative;
+      font-size: 3rem;
+   }
+
+   .temp-deg .celsius{
+      font-size: 1rem;
+      position: absolute;
+      top: .5rem;
+   }
 }
