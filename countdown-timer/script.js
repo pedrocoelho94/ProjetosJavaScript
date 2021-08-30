@@ -1,7 +1,7 @@
-const birthday = "16 aug 2021"
+const theDate = "25 dec 2021"
 
 function countdown(){
-   const myBirthday = new Date(birthday)
+   const myBirthday = new Date(theDate)
    const currentDate = new Date()
 
    const totalSeconds = (myBirthday - currentDate) / 1000
