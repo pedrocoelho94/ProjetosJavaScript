@@ -20,7 +20,6 @@ img {
 }
 
 body {
-   background-color: va(--grey-light);
    width: 100%;
    height: 100vh;
    display: flex;
@@ -37,7 +36,6 @@ button {
 .box {
    width: min(900px, 90%);
    height: 500px;
-   margin: 2 auto;
    background-color: rgb(255, 255, 255);
    box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.2);
    border-radius: 10px;
