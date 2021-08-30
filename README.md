@@ -9,7 +9,10 @@ Este é um repositório em que estarei colocando todos os meus mini projetos.
 Calculadora simples.
 
  * Calculadora IMC  
-Calculadora básica para medir IMC.
+Calculadora básica para medir IMC. 
+
+* Card Product    
+Card responsivo de um produto para ecommerce.
 
 * dev.Finances  
 Mini sistema financeiro com HTML, CSS e JS. Projeto baseado na maratona discover da Rocketseat.
