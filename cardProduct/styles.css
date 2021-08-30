@@ -102,11 +102,6 @@ button {
    color: white;
 }
 
-.prev:hover,
-.next:hover {
-   opacity: 0.8;
-}
-
 /* DESCRIPTION*/
 
 .selectedField {
@@ -142,11 +137,6 @@ button {
 .breadcrumb li a {
    color: #0275d8;
    text-decoration: none;
-}
-
-.breadcrumb li a:hover {
-   color: #01447e;
-   text-decoration: underline;
 }
 
 .category {
@@ -189,7 +179,6 @@ button {
    display: flex;
    flex-wrap: wrap;
    gap: 1rem;
-   cursor: pointer;
 }
 
 .sizeOptions span {
@@ -201,9 +190,9 @@ button {
    border-radius: 50%;
    background-color: var(--blue);
    color: white;
+   cursor: pointer;
 }
 
-.sizeOptions span:hover,
 span.selectedSize {
    border: 1px solid var(--blue);
    background-color: white;
@@ -232,11 +221,6 @@ span.selectedSize {
    color: var(--blue);
 }
 
-.btnBlue:hover,
-.btnBlueLight:hover {
-   filter: brightness(1.1);
-}
-
 .shipBox {
    border: 1px solid rgba(0, 0, 0, 0.2);
    padding: 1rem;
@@ -261,7 +245,7 @@ span.selectedSize {
    padding: 0 1rem;
 }
 
-.shipBox .inputForm > input:focus{
+.shipBox .inputForm > input:focus {
    outline: none;
    border: 1px solid rgba(0, 0, 0, 0.3);
 }
@@ -279,10 +263,6 @@ span.selectedSize {
    cursor: pointer;
 }
 
-.shipBox .inputForm > button:hover {
-   background-color: rgb(206, 206, 206);
-}
-
 .shipBox a {
    text-decoration: none;
    color: var(--blue);
@@ -292,6 +272,37 @@ span.selectedSize {
 .active {
    opacity: 0.4;
 }
+
+/* HOVER APARECE APENAS EM NAVEGADOR */
+
+@media (hover: hover) and (pointer: fine) {
+   .prev:hover,
+   .next:hover {
+      opacity: 0.8;
+   }
+
+   .breadcrumb li a:hover {
+      color: #01447e;
+      text-decoration: underline;
+   }
+
+   .sizeOptions span:hover {
+      border: 1px solid var(--blue);
+      background-color: white;
+      color: var(--blue);
+   }
+
+   .btnBlue:hover,
+   .btnBlueLight:hover {
+      filter: brightness(1.1);
+   }
+
+   .shipBox .inputForm > button:hover {
+      background-color: rgb(206, 206, 206);
+   }
+}
+
+/* MEDIA QUERIES*/
 
 @media screen and (max-width: 1000px) {
    body {
@@ -350,8 +361,9 @@ span.selectedSize {
       font-size: 0.625rem;
    }
 
-   .prev, .next{
-      padding: .5rem;
+   .prev,
+   .next {
+      padding: 0.5rem;
    }
 
    .prevNextBtn {
