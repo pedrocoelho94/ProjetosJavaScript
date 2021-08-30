@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+      <link rel="stylesheet" href="./styles.css" />
+      <title>Document</title>
+   </head>
+   <body>
+      <div class="box">
+         <div class="left">
+            <div class="product">
+               <div class="expandedImg">
+                  <div class="imgArea">
+                     <img class="fullImg" src="" alt="" />
+                  </div>
+
+                  <div class="prevNextBtn">
+                     <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
+                     <a class="next" onclick="changeSlide(1)">&#10095;</a>
+                  </div>
+               </div>
+
+               <div class="container">
+                  <div>
+                     <img
+                        class="mySlides"
+                        onClick="currentSlide(0)"
+                        src="./img/p1.png"
+                        alt=""
+                     />
+                  </div>
+                  <div>
+                     <img
+                        class="mySlides"
+                        onClick="currentSlide(1)"
+                        src="./img/p2.png"
+                        alt=""
+                     />
+                  </div>
+                  <div>
+                     <img
+                        class="mySlides"
+                        onClick="currentSlide(2)"
+                        src="./img/p3.png"
+                        alt=""
+                     />
+                  </div>
+                  <div>
+                     <img
+                        class="mySlides"
+                        onClick="currentSlide(3)"
+                        src="./img/p4.png"
+                        alt=""
+                     />
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="right">
+            <div class="info">
+               <ul class="breadcrumb">
+                  <li><a href="#">Calçados</a></li>
+                  <li><a href="#">Masculino</a></li>
+                  <li><a href="#">Esportes</a></li>
+                  <li>Casual</li>
+               </ul>
+
+               <div class="category">Casual</div>
+               <div class="title">Tênis Nike Air Max 2090 Masculino</div>
+               <div class="shortInfo">
+                  <span class="serial">SB2133</span>
+                  <span class="id">AP1123124</span>
+                  <span class="stars"> 4/5</span>
+               </div>
+               <div class="description">
+                  Traga o passado para o futuro com o Nike Air Max 2090.
+                  Inspirado no icônico Air Max 90, o 2090 conta com o
+                  amortecimento Nike Air debaixo do pé, que proporciona conforto
+                  inigualável, enquanto a tela transparente na parte de cima se
+                  mistura com as características atemporais do OG para um look
+                  moderno e ousado.
+               </div>
+               <div class="size">
+                  <h2 class="subtitle">Tamanhos</h2>
+                  <div class="sizeOptions">
+                     <span>36</span>
+                     <span>37</span>
+                     <span>38</span>
+                     <span>39</span>
+                     <span>40</span>
+                     <span>41</span>
+                     <span>42</span>
+                  </div>
+
+                  <div class="selectedField">
+                     Numero selecionado: <span class="selected"></span>
+                  </div>
+
+                  <div class="button">
+                     <button class="btn btnBlue"><i class="fas fa-shopping-cart"></i> Adicionar ao carrinhho</button>
+                     <button class="btn btnBlueLight">
+                        + Lista de Desejos
+                     </button>
+                  </div>
+               </div>
+
+               <div class="ship">
+                  <h2 class="subtitle">Calcular frete e entrega</h2>
+                  <div class="shipBox">
+                     <p>
+                        Calcule o frete e o prazo de entrega estimados para sua
+                        região. Informe seu CEP.
+                     </p>
+                     <div class="inputForm">
+                        <input type="text" placeholder="CEP" /><button>
+                           Calcular
+                        </button>
+                     </div>
+                     <a href="">Não sei meu CEP</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <script src="./script.js"></script>
+   </body>
+</html>
