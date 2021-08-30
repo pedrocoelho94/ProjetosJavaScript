@@ -181,7 +181,7 @@ button {
 }
 
 .size {
-   margin-bottom: 2rem;
+   margin-bottom: 1rem;
 }
 
 .sizeOptions {
@@ -259,6 +259,11 @@ span.selectedSize {
    border-radius: 5px 0 0 5px;
    border: 1px solid rgba(0, 0, 0, 0.2);
    padding: 0 1rem;
+}
+
+.shipBox .inputForm > input:focus{
+   outline: none;
+   border: 1px solid rgba(0, 0, 0, 0.3);
 }
 
 .shipBox .inputForm > button {
